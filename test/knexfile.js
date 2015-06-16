@@ -116,6 +116,17 @@ var testConfigs = {
     pool: pool,
     migrations: migrations,
     seeds: seeds
+  },
+  mssql: {
+    dialect: 'mssql',
+    connection: {
+      userName: 'knex_test',
+      password: 'knex_test',
+      server: '127.0.0.1'
+    },
+    pool: pool,
+    migrations: migrations,
+    seeds: seeds
   }
 };
 
